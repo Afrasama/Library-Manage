@@ -1,0 +1,26 @@
+/* src/components/BookList.css */
+.book-list {
+    margin: 20px 0;
+  }
+  
+  .book-list h2 {
+    color: #333;
+  }
+  
+  .book-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  .book-list li:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  
